@@ -3,11 +3,11 @@
 
 ## Agenda:
 
--Jenkins setup
--Maven and Git configuration
--GitHub and Maven integration with Jenkins
--Configure Docker Host
--Incorporate Jenkins with Docker
--Use Jenkins to automate the Build as well as the deployment procedure.
--Test the implementation
+  -Jenkins setup
+  -Maven and Git configuration
+  -GitHub and Maven integration with Jenkins
+  -Configure Docker Host
+- Incorporate Jenkins with Docker
+  -Use Jenkins to automate the Build as well as the deployment procedure.
+  -Test the implementation
   
