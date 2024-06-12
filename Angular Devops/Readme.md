@@ -1,1 +1,1 @@
-My App Repo- [git@github.com:krishchadha/angular-portfolio.git](https://github.com/krishchadha/angular-portfolio.git)
+My App Repo- (https://github.com/krishchadha/angular-portfolio.git)
