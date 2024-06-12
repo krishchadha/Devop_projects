@@ -1,12 +1,9 @@
 ## Agenda:
 
-- Jenkins setup
-- 
-- GitHub and Maven integration with Jenkins
-- Configure Docker Host
-- Incorporate Jenkins with Docker
-- Use Jenkins to automate the Build as well as the deployment procedure.
-- Test the implementation
+- Aws and Jenkins setup
+- Graphana setup by using promtail 
+- Add sources for data
+- Create constraints and visualize graphs
 
 ![Screenshot 2024-05-30 134256](https://github.com/krishchadha/Devop_projects/assets/30497676/948df597-1301-4391-b3e3-d7de8eb94530)
 ![Screenshot 2024-05-30 135620](https://github.com/krishchadha/Devop_projects/assets/30497676/0adfd9d0-52fb-477d-aa74-5d8dcbbc5b6a)
