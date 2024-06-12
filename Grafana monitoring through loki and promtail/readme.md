@@ -1,3 +1,6 @@
+![Screenshot 2024-06-12 222923](https://github.com/krishchadha/Devop_projects/assets/30497676/73e2342a-5f4d-4c1f-8aa8-f64403946fbe)
+
+
 ## Agenda:
 
 - Aws and Jenkins setup
