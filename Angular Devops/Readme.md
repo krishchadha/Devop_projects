@@ -19,6 +19,7 @@ Welcome to the showcase of my DevSecOps pipeline for an Angular-based applicatio
 
 ![Screenshot 2024-07-06 001225](https://github.com/krishchadha/Devop_projects/assets/30497676/4f5a5868-729c-48f9-b034-2dc742c5cefd)
 
+<img width="2457" alt="Untitled (1)" src="https://github.com/krishchadha/Devop_projects/assets/30497676/42244d5f-d08c-4d7a-969d-788fc5509d2d">
 
 
 This diagram illustrates the workflow from code commit to deployment, showcasing the interaction between Jenkins, Docker, OWASP ZAP, SonarQube, AWS S3, and Slack.
