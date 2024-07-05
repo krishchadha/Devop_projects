@@ -3,17 +3,17 @@
 Welcome to the showcase of my DevSecOps pipeline for an Angular-based application. This blog highlights the integration of various tools and technologies to ensure a secure, efficient, and continuously monitored deployment process. Below, I outline the key components of the pipeline, demonstrating my skills and the project's comprehensive nature.
 
 ## Project Overview
-- App Repository: [angular-portfolio](https://github.com/krishchadha/angular-portfolio.git)
-- Live Website: https://www.krishchadha.online
-- Jenkins: An open-source automation server for CI/CD.
-- Docker: Containerization of the Angular app.
-- AWS S3: Static website hosting.
-- Slack: Notifications for build and deployment status.
-- OWASP ZAP: Security testing.
-- SonarQube: Code quality and security analysis.
-- Google Analytics: Tracking website usage.
-- Cloudflare: DNS management and SSL.
-- Prometheus and Grafana: Monitoring and visualization.
+- **App Repository**: [angular-portfolio](https://github.com/krishchadha/angular-portfolio.git)
+- **Live Website**: https://www.krishchadha.online
+- **Jenkins**: An open-source automation server for CI/CD.
+- **Docker**: Containerization of the Angular app.
+- **AWS S3**: Static website hosting.
+- **Slack**: Notifications for build and deployment status.
+- **OWASP ZAP**: Security testing.
+- **SonarQube**: Code quality and security analysis.
+- **Google Analytics**: Tracking website usage.
+- **Cloudflare**: DNS management and SSL.
+- **Prometheus** and **Grafana**: Monitoring and visualization.
 
 ## Visual Workflow Diagram
 
