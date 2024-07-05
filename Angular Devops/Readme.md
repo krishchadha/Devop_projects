@@ -26,16 +26,20 @@ This diagram illustrates the workflow from code commit to deployment, showcasing
 Metrics and Results
 Build Time Improvement:
 
-Initial build time: 10 minutes
-Optimized build time: 5 minutes
+Initial build time: 7 minutes 16 seconds
+Optimized build time: 5 minutes 52 seconds
+
 Code Quality Scores:
 
-Initial SonarQube score: 75%
-Current SonarQube score: 90%
-Security Vulnerabilities:
+- Initial SonarQube Bugs: 2
+- - Current SonarQube score: 0
+  - 
+- Initial SonarQube CodeSmell: 14
+- Current SonarQube CodeSmell: 6
 
-Initial vulnerabilities: 15
-Current vulnerabilities: 2
+Security Vulnerabilities:
+- Initial vulnerabilities: 3
+- Current vulnerabilities: 0
 
 
 ## Jenkins for CI/CD
