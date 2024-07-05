@@ -1,5 +1,5 @@
 ### Building a Secure, Monitored, and Efficient Angular App Deployment Pipeline
-##Introduction
+## Introduction
 Welcome to the showcase of my DevSecOps pipeline for an Angular-based application. This blog highlights the integration of various tools and technologies to ensure a secure, efficient, and continuously monitored deployment process. Below, I outline the key components of the pipeline, demonstrating my skills and the project's comprehensive nature.
 
 ##Project Overview
