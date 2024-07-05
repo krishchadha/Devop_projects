@@ -51,6 +51,8 @@ Efficiency: Reduces manual intervention, speeding up the deployment process.
 
 ## Docker for Containerization
 
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/6361f92b-a097-4f03-bbda-3697f68e18f8)
+
 Docker plays a crucial role in containerizing the Angular application, ensuring consistency across different environments. By containerizing the app, we can avoid the "it works on my machine" problem and ensure the app behaves the same way in development, testing, and production.
 
 Why Docker?
@@ -60,15 +62,17 @@ Isolation: Isolates the application, ensuring dependencies and configurations do
 Scalability: Makes it easier to scale the application as needed.
 
 ##AWS S3 for Static Website Hosting
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/01638d32-6b67-406f-90a4-f6f2a707ab2c)
+
 AWS S3 is used to host the static Angular website. S3 provides a highly durable and available storage infrastructure that allows for the efficient delivery of the website content.
 
 Why AWS S3?
-
 Scalability: Automatically scales to meet traffic demands.
 Cost-Effective: Only pay for what you use, making it a cost-effective solution.
 Reliability: High durability and availability ensure the website is always accessible.
 
 ## Slack for Notifications
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/3ee37643-d8c4-4e3d-9407-65642b582cda)
 
 Integrating Slack with Jenkins allows for real-time notifications about the build and deployment status. This ensures the team stays informed about the pipeline's health and can quickly address any issues.
 
@@ -79,6 +83,7 @@ Team Collaboration: Enhances team collaboration and response time to issues.
 Customizable Alerts: Allows for customizable notifications based on specific events.
 
 ## OWASP ZAP for Security Testing
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/766348f0-c888-4359-a596-f34a5780aa6c)
 
 Security is paramount, and OWASP ZAP helps identify vulnerabilities in the application. By integrating ZAP into the Jenkins pipeline, we can automate security testing and ensure the application is secure before deployment.
 
@@ -89,6 +94,7 @@ Comprehensive Coverage: Provides extensive security testing capabilities.
 Open Source: A free and widely-used security tool.
 
 ## SonarQube for Code Quality and Security Analysis
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/0d9c4177-dd98-467f-a316-5da663daf3fe)
 
 SonarQube is used to analyze the code quality and identify potential security issues. Integrating SonarQube with Jenkins ensures that code quality is continuously monitored and improved.
 
@@ -99,6 +105,8 @@ Security: Detects security vulnerabilities in the code.
 Continuous Monitoring: Provides continuous code analysis and feedback.
 
 ## Google Analytics for Tracking
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/39270c8c-4836-4462-856e-8688d565f876)
+
 Google Analytics is integrated into the Angular application to track user interactions and gather valuable insights. This helps in understanding user behavior and improving the application's performance.
 
 Why Google Analytics?
@@ -108,6 +116,8 @@ Performance Tracking: Helps in tracking the performance of the application.
 Data-Driven Decisions: Enables data-driven decisions for improving the application.
 
 ## Cloudflare for DNS and SSL
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/0a9ba9ba-3a0b-4e94-ac6e-15629b05319f)
+
 Cloudflare manages DNS and SSL for the website, ensuring fast and secure access. It provides robust security features and enhances the website's performance by caching content and providing DDoS protection.
 
 Why Cloudflare?
@@ -117,6 +127,9 @@ Performance: Improves website performance through caching and content delivery o
 Reliability: Provides reliable and fast DNS resolution.
 
 ## Prometheus and Grafana for Monitoring
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/d475aaeb-b4d5-4d43-8eaf-43ae77b143af)
+
+![image](https://github.com/krishchadha/Devop_projects/assets/30497676/caee04ca-9263-463a-89cb-bc9bafd8a035)
 
 Prometheus and Grafana are used to monitor the Jenkins pipeline, providing valuable metrics and visualizations. This helps in keeping track of the pipeline's performance and identifying any issues early.
 
