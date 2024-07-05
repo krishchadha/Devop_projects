@@ -112,56 +112,6 @@ Metrics Collection: Prometheus collects detailed metrics about the pipeline.
 Visualization: Grafana provides powerful visualizations for better understanding of the metrics.
 Alerting: Allows for setting up alerts to notify about potential issues.
 
-## Code Snippets
-Jenkins Pipeline Script:
-
-groovy
-Copy code
-pipeline {
-    agent any
-    environment {
-        AWS_ACCESS_KEY_ID = credentials('aws-access-key-id')
-        AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
-    }
-    stages {
-        stage('Build') {
-            steps {
-                script {
-                    docker.build('angular-app:latest')
-                }
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'ng test --watch=false'
-            }
-        }
-        stage('Security Scan') {
-            steps {
-                sh 'owasp-zap -cmd -quickscan http://localhost:4200'
-            }
-        }
-        stage('Code Quality') {
-            steps {
-                sh 'sonar-scanner'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                script {
-                    sh 'aws s3 sync ./dist s3://my-angular-app'
-                }
-            }
-        }
-    }
-    post {
-        always {
-            slackSend channel: '#website', message: "Build ${currentBuild.fullDisplayName} completed with status: ${currentBuild.currentResult}"
-        }
-    }
-}
-
-
 ## Challenges and Learnings
 Implementing this pipeline was not without its challenges. Configuring Jenkins to integrate with all the tools seamlessly required meticulous setup and troubleshooting. Ensuring Docker containers worked consistently across different environments also posed a challenge. Security testing with OWASP ZAP needed careful configuration to avoid false positives and ensure meaningful results.
 
