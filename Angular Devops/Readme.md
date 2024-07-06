@@ -149,13 +149,6 @@ Implementing this pipeline was not without its challenges. Configuring Jenkins t
 
 Despite these challenges, the process was enriching. It provided valuable learnings about automating and securing the deployment pipeline, integrating various tools, and monitoring the system effectively.
 
-## Future Improvements and Plans
-Looking forward, I plan to:
-
-Integrate More Security Tools: Adding more security checks to enhance application security.
-Optimize Performance: Continuously improve build and deployment times.
-Expand Monitoring: Incorporate additional metrics and monitoring tools to get a more comprehensive pipeline view.
-
 ## Conclusion
 Building this DevSecOps pipeline has been a transformative experience. It has equipped me with the skills to automate, secure, and monitor deployments effectively. The integration of Jenkins, Docker, AWS S3, Slack, OWASP ZAP, SonarQube, Google Analytics, Cloudflare, Prometheus, and Grafana has resulted in a robust and efficient pipeline, ensuring the Angular application is always in top shape.
 
