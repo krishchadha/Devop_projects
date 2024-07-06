@@ -6,7 +6,8 @@ Welcome to the showcase of my DevSecOps pipeline for an Angular-based applicatio
 - **App Repository**: [angular-portfolio](https://github.com/krishchadha/angular-portfolio.git)
 - **Live Website**: https://www.krishchadha.online
 - **Jenkins**: An open-source automation server for CI/CD.
-- **Docker**: Containerization of the Angular app.
+- **Docker**: For Sonarqube, prometheus and grafana.
+- **Docker Hub**: Containerization of the Angular app.
 - **AWS S3**: Static website hosting.
 - **Slack**: Notifications for build and deployment status.
 - **OWASP ZAP**: Security testing.
@@ -59,6 +60,8 @@ Why Jenkins?
 ![image](https://github.com/krishchadha/Devop_projects/assets/30497676/6361f92b-a097-4f03-bbda-3697f68e18f8)
 
 Docker plays a crucial role in containerizing the Angular application, ensuring consistency across different environments. By containerizing the app, we can avoid the "it works on my machine" problem and ensure the app behaves the same way in development, testing, and production.
+
+Docker was also used for containerization of the angular app, creating different versions,and to build code.
 
 Why Docker?
 
