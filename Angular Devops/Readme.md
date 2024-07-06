@@ -50,9 +50,9 @@ Jenkins is the backbone of our continuous integration and continuous deployment 
 
 Why Jenkins?
 
-Automation: Automates build, test, and deployment processes.
-Integration: Supports numerous plugins for seamless integration with other tools.
-Efficiency: Reduces manual intervention, speeding up the deployment process.
+- Automation: Automates build, test, and deployment processes.
+- Integration: Supports numerous plugins for seamless integration with other tools.
+- Efficiency: Reduces manual intervention, speeding up the deployment process.
 
 ## Docker for Containerization
 
@@ -62,9 +62,9 @@ Docker plays a crucial role in containerizing the Angular application, ensuring 
 
 Why Docker?
 
-Consistency: Provides a consistent environment across various stages of development.
-Isolation: Isolates the application, ensuring dependencies and configurations do not conflict.
-Scalability: Makes it easier to scale the application as needed.
+- Consistency: Provides a consistent environment across various stages of development.
+- Isolation: Isolates the application, ensuring dependencies and configurations do not conflict.
+- Scalability: Makes it easier to scale the application as needed.
 
 ##AWS S3 for Static Website Hosting
 ![image](https://github.com/krishchadha/Devop_projects/assets/30497676/01638d32-6b67-406f-90a4-f6f2a707ab2c)
@@ -72,9 +72,9 @@ Scalability: Makes it easier to scale the application as needed.
 AWS S3 is used to host the static Angular website. S3 provides a highly durable and available storage infrastructure that allows for the efficient delivery of the website content.
 
 Why AWS S3?
-Scalability: Automatically scales to meet traffic demands.
-Cost-Effective: Only pay for what you use, making it a cost-effective solution.
-Reliability: High durability and availability ensure the website is always accessible.
+- Scalability: Automatically scales to meet traffic demands.
+- Cost-Effective: Only pay for what you use, making it a cost-effective solution.
+- Reliability: High durability and availability ensure the website is always accessible.
 
 ## Slack for Notifications
 ![image](https://github.com/krishchadha/Devop_projects/assets/30497676/3ee37643-d8c4-4e3d-9407-65642b582cda)
@@ -83,9 +83,9 @@ Integrating Slack with Jenkins allows for real-time notifications about the buil
 
 Why Slack?
 
-Real-Time Communication: Provides instant notifications about build status.
-Team Collaboration: Enhances team collaboration and response time to issues.
-Customizable Alerts: Allows for customizable notifications based on specific events.
+- Real-Time Communication: Provides instant notifications about build status.
+- Team Collaboration: Enhances team collaboration and response time to issues.
+- Customizable Alerts: Allows for customizable notifications based on specific events.
 
 ## OWASP ZAP for Security Testing
 ![image](https://github.com/krishchadha/Devop_projects/assets/30497676/766348f0-c888-4359-a596-f34a5780aa6c)
@@ -94,9 +94,9 @@ Security is paramount, and OWASP ZAP helps identify vulnerabilities in the appli
 
 Why OWASP ZAP?
 
-Automated Security Testing: Integrates seamlessly into the CI/CD pipeline for automated security checks.
-Comprehensive Coverage: Provides extensive security testing capabilities.
-Open Source: A free and widely-used security tool.
+- Automated Security Testing: Integrates seamlessly into the CI/CD pipeline for automated security checks.
+- Comprehensive Coverage: Provides extensive security testing capabilities.
+- Open Source: A free and widely-used security tool.
 
 ## SonarQube for Code Quality and Security Analysis
 ![image](https://github.com/krishchadha/Devop_projects/assets/30497676/0d9c4177-dd98-467f-a316-5da663daf3fe)
@@ -105,9 +105,9 @@ SonarQube is used to analyze the code quality and identify potential security is
 
 Why SonarQube?
 
-Code Quality: Ensures high code quality by identifying issues and suggesting improvements.
-Security: Detects security vulnerabilities in the code.
-Continuous Monitoring: Provides continuous code analysis and feedback.
+- Code Quality: Ensures high code quality by identifying issues and suggesting improvements.
+- Security: Detects security vulnerabilities in the code.
+- Continuous Monitoring: Provides continuous code analysis and feedback.
 
 ## Google Analytics for Tracking
 ![image](https://github.com/krishchadha/Devop_projects/assets/30497676/39270c8c-4836-4462-856e-8688d565f876)
@@ -116,9 +116,9 @@ Google Analytics is integrated into the Angular application to track user intera
 
 Why Google Analytics?
 
-User Insights: Provides valuable insights into user behavior.
-Performance Tracking: Helps in tracking the performance of the application.
-Data-Driven Decisions: Enables data-driven decisions for improving the application.
+- User Insights: Provides valuable insights into user behavior.
+- Performance Tracking: Helps in tracking the performance of the application.
+- Data-Driven Decisions: Enables data-driven decisions for improving the application.
 
 ## Cloudflare for DNS and SSL
 ![image](https://github.com/krishchadha/Devop_projects/assets/30497676/0a9ba9ba-3a0b-4e94-ac6e-15629b05319f)
@@ -127,9 +127,9 @@ Cloudflare manages DNS and SSL for the website, ensuring fast and secure access.
 
 Why Cloudflare?
 
-Security: Offers SSL encryption and DDoS protection.
-Performance: Improves website performance through caching and content delivery optimization.
-Reliability: Provides reliable and fast DNS resolution.
+- Security: Offers SSL encryption and DDoS protection.
+- Performance: Improves website performance through caching and content delivery optimization.
+- Reliability: Provides reliable and fast DNS resolution.
 
 ## Prometheus and Grafana for Monitoring
 ![image](https://github.com/krishchadha/Devop_projects/assets/30497676/d475aaeb-b4d5-4d43-8eaf-43ae77b143af)
@@ -140,9 +140,9 @@ Prometheus and Grafana are used to monitor the Jenkins pipeline, providing valua
 
 Why Prometheus and Grafana?
 
-Metrics Collection: Prometheus collects detailed metrics about the pipeline.
-Visualization: Grafana provides powerful visualizations for better understanding of the metrics.
-Alerting: Allows for setting up alerts to notify about potential issues.
+- Metrics Collection: Prometheus collects detailed metrics about the pipeline.
+- Visualization: Grafana provides powerful visualizations for better understanding of the metrics.
+- Alerting: Allows for setting up alerts to notify about potential issues.
 
 ## Challenges and Learnings
 Implementing this pipeline was not without its challenges. Configuring Jenkins to integrate with all the tools seamlessly required meticulous setup and troubleshooting. Ensuring Docker containers worked consistently across different environments also posed a challenge. Security testing with OWASP ZAP needed careful configuration to avoid false positives and ensure meaningful results.
