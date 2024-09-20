@@ -9,7 +9,7 @@ This project demonstrates the automation of CI/CD pipelines using Jenkins to dep
 
 ## Features
 - **Automated CI/CD**: Jenkins pipeline automates testing, building, and deploying the Flask REST-API.
-- **Multi-Environment Setup: Infrastructure is provisioned and managed for Dev, Staging, and Production environments.
+- **Multi-Environment Setup**: Infrastructure is provisioned and managed for Dev, Staging, and Production environments.
 ### Hybrid Serverless Architecture:
 - **EC2**: Flask REST-API runs on EC2 instances.
 - **MySQL RDS**: Persistent database storage using AWS RDS.
@@ -31,7 +31,7 @@ This project demonstrates the automation of CI/CD pipelines using Jenkins to dep
 - **Internet Gateway**
 - **Route Tables**
 - **Security Groups**
-- **Terraform: Infrastructure as code (IaC) tool used to provision AWS resources. Terraform scripts manage:
+- **Terraform**: Infrastructure as code (IaC) tool used to provision AWS resources. Terraform scripts manage:
 - **ELB**
 - **Route 53 (DNS)**
 - **ACM (SSL/TLS certificates)**
