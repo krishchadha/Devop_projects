@@ -1,2 +1,2 @@
 
-Link to code: https://github.com/krishchadha/terraform-project
+Python-app: https://github.com/krishchadha/python-terraform
