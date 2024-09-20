@@ -10,13 +10,15 @@ This project demonstrates the automation of CI/CD pipelines using Jenkins to dep
 ## Features
 - **Automated CI/CD**: Jenkins pipeline automates testing, building, and deploying the Flask REST-API.
 - **Multi-Environment Setup**: Infrastructure is provisioned and managed for Dev, Staging, and Production environments.
-### Hybrid Serverless Architecture:
+
+### Architecture:
 - **EC2**: Flask REST-API runs on EC2 instances.
 - **MySQL RDS**: Persistent database storage using AWS RDS.
 - **AWS Lambda**: Serverless functions for specific asynchronous tasks.
 - **High Availability**: Ensured with Elastic Load Balancer (ELB).
 - **VPC Networking**: Custom Virtual Private Cloud (VPC) setup with subnets, Internet Gateway, Route tables, and Security Groups provisioned via Terraform.
 - **HTTPS & Domain Security**: Secured using custom domains, AWS Route 53 for DNS management, and AWS ACM for SSL/TLS certificates.
+
 ### Infrastructure Overview
 - **Jenkins**: Handles continuous integration and deployment tasks. The pipeline deploys infrastructure and application code automatically across different environments.
 
@@ -24,7 +26,6 @@ This project demonstrates the automation of CI/CD pipelines using Jenkins to dep
 
 - **EC2 Instances**: Hosts the Flask application.
 - **RDS MySQL**: Database backend for the REST API.
-- **Lambda Functions**: Provides serverless functionality.
 - **Elastic Load Balancer (ELB)**: Distributes traffic across EC2 instances to ensure availability.
 - **VPC**: Custom network configuration to isolate resources and control access via:
 - **Subnets**
