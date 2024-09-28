@@ -7,7 +7,8 @@ This project demonstrates the automation of CI/CD pipelines using Jenkins to dep
 - **Infrastructure**: https://github.com/krishchadha/infra-terraform
 - **Jenkins-terraform**: https://github.com/krishchadha/jenkins-terraform
 
-  
+  Structure:
+
 
 ## Features
 - **Automated CI/CD**: Jenkins pipeline automates testing, building, and deploying the Flask REST-API.
