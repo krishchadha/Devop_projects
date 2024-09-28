@@ -9,7 +9,7 @@ This project demonstrates the automation of CI/CD pipelines using Jenkins to dep
 - **Jenkins-terraform**: https://github.com/krishchadha/jenkins-terraform
 
 Structure:
-!(https://github.com/krishchadha/Devop_projects/blob/main/Multi-Environment%20REST%20API%20Deployment%20on%20AWS%20Using%20Jenkins%2C%20Terraform%2C%20and%20MySQL%20RDS/Screenshot%202024-09-28%20200238.png)
+![Alt text](https://github.com/username/repository/blob/main/image.png)
 
 ## Features
 - **Automated CI/CD**: Jenkins pipeline automates testing, building, and deploying the Flask REST-API.
