@@ -8,7 +8,7 @@ I wanted to share a workflow I’ve implemented for deploying a Python-based Fla
 - **Infrastructure**: https://github.com/krishchadha/infra-terraform
 - **Jenkins-terraform**: https://github.com/krishchadha/jenkins-terraform
 
-Structure:
+## Structure:
 ![Alt text](https://github.com/krishchadha/Devop_projects/blob/main/Multi-Environment%20REST%20API%20Deployment%20on%20AWS%20Using%20Jenkins%2C%20Terraform%2C%20and%20MySQL%20RDS/Screenshot%202024-09-28%20200238.png)
 
 ## Overview
