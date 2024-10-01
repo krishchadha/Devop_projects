@@ -47,6 +47,9 @@ Resources created include:
 - Apply: Create or update the infrastructure.
 - Destroy: Tear down the infrastructure (useful for testing and development environments).
 3. **Deploy App**: After the infrastructure is up, Jenkins deploys the Flask REST API on the provisioned EC2 instances in the selected environment.
+
+Accessing Jenkins via custom Domain:
+
 ![Alt text](https://github.com/krishchadha/Devop_projects/blob/main/Multi-Environment%20REST%20API%20Deployment%20on%20AWS%20Using%20Jenkins%2C%20Terraform%2C%20and%20MySQL%20RDS/Screenshot%202024-10-01%20154736.png)
 
 ## Why this Workflow?
