@@ -52,6 +52,11 @@ Accessing Jenkins via custom Domain:
 
 ![Alt text](https://github.com/krishchadha/Devop_projects/blob/main/Multi-Environment%20REST%20API%20Deployment%20on%20AWS%20Using%20Jenkins%2C%20Terraform%2C%20and%20MySQL%20RDS/Screenshot%202024-10-01%20154736.png)
 
+Various Options:
+
+![Alt text](https://github.com/krishchadha/Devop_projects/blob/main/Multi-Environment%20REST%20API%20Deployment%20on%20AWS%20Using%20Jenkins%2C%20Terraform%2C%20and%20MySQL%20RDS/Screenshot%202024-10-01%20160003.png)
+
+
 ## Why this Workflow?
 - Automation: No manual configuration. Everything is controlled via code.
 - Scalability: The infrastructure can be easily expanded as traffic and demand grow.
